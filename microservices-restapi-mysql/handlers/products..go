@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/nicholasjackson/building-microservices-youtube/product-api/data"
+	"microservices-restapi-mysql/data"
 )
 
 // Products is a http.Handler
