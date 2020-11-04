@@ -2,8 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/nicholasjackson/building-microservices-youtube/product-api/handlers"
-	"github.com/nicholasjackson/env"
+	"microservices-restapi-mysql/handlers"
 	"log"
 	"net/http"
 	"os"
@@ -11,7 +10,6 @@ import (
 	"time"
 )
 
-var bindAddress = env.String("BIND_ADDRESS", false, ":9090", "Bind address for the server")
 
 func main() {
 
